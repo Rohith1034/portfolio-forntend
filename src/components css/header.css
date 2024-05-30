@@ -1,0 +1,61 @@
+:root {
+    --e-global-typography-e02171b-text-transform: uppercase;
+    --e-global-typography-e02171b-line-height: 1.1em;
+    --e-global-typography-e02171b-letter-spacing: 0.0005em;
+    --e-global-typography-e02171b-word-spacing: 0.1em;
+}
+
+.header {
+    margin-top: 200px;
+}
+
+.header-main-heading {
+    color: white;
+    font-size: 176px;
+    font-weight: bolder;
+    text-transform: var(--e-global-typography-e02171b-text-transform);
+    line-height: var(--e-global-typography-e02171b-line-height);
+    letter-spacing: var(--e-global-typography-e02171b-letter-spacing);
+    word-spacing: var(--e-global-typography-e02171b-word-spacing);
+    text-shadow: 12px 24px 30px rgba(17, 47, 85, .2);
+}
+
+.sub-heading {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.001em;
+    word-spacing: 0.001em;
+    line-height: 1em;
+    color: white;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.email-input-box {
+    width: 272px;
+    height: 60px;
+    border: 0px;
+    padding-left: 30px;
+    color: white;
+    background-color: #202131;
+}
+
+.resume-btn {
+    width: 272px;
+    height: 60px;
+    border: 0px;
+    color: #202131;
+    border-radius: 3px;
+    background-color: #edb441;
+    margin-left: 40px;
+}
+
+.resume-btn:hover {
+    background-color: white;
+}
+
+

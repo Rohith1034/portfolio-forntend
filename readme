@@ -1,0 +1,7 @@
+echo "# portfolio-forntend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rohith1034/portfolio-forntend.git
+git push -u origin main

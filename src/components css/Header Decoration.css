@@ -1,0 +1,32 @@
+.header-decoration {
+    margin: 0;
+    padding: 0; 
+}
+
+.img1 {
+    height: 450px;
+    display: block;
+    position: relative;
+    transform: rotate(145deg);
+    left: -150px;
+    z-index: 1;
+}
+
+.img2 {
+    z-index: 0;
+    height: 550px;
+    display: block;
+    position: relative;
+    left: -135px;
+    top: -300px;
+}
+
+@media (max-width:950px) {
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+}

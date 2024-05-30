@@ -1,0 +1,77 @@
+#contact {
+    background-color: #1f2030;
+    margin-top: 10%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10%;
+}
+
+@media (max-width:950px) {
+    .contact-section {
+        display: block;
+    }
+
+    .get-in-touch-section {
+        width: 100% !important;
+    }
+
+    .social-media-links {
+        width: 100% !important;
+        margin-top: 50px;
+    }
+
+    .email-form {
+        width: 100% !important;
+        margin-top: 50px;
+        display: block;
+    }
+
+}
+
+.get-in-touch-section {
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 20px;
+}
+
+.get-in-touch-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    color: #f4b942;
+}
+
+.social-media-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.social-media-btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #f4b942;
+}
+
+.social-media-btn:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.email-here-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    color: #f4b942;
+}
+
+.links-section {
+    margin-top: 3%;
+    display: flex;
+}
+

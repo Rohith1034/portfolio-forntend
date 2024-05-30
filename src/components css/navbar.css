@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+nav {
+    background-color: #111126;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, .1);
+}
+
+.container-fluid {
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.navbar-light .navbar-toggler-icon,
+
+.navbar.fixed-top.navbar-expand-lg.bg-body-tertiary .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn:active:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.toggler {
+    border: 0px !important;
+    display: flex;
+    justify-content: center;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    transition: none !important; 
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    transition: none !important;
+}
+
+.toggler-heading {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+@media (max-width:950px) {
+    .container-fluid {
+        padding: 25px 25px 20px 20px;
+    }
+
+    .main-heading {
+        display: none;
+    }
+
+    .nav-link {
+        color: white;
+        border-bottom: 0px;
+    }
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: white;
+    border-bottom: 2px solid #f4b942;
+}
+
+.home-link {
+    color: #f4b942;
+}
+
+.home-link:hover {
+    color: #f4b942;
+    border-bottom: none;
+}
+
+.main-heading {
+    font-size: 26px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main-heading-link {
+    color: white;
+    text-decoration: none;
+}
+
+.main-heading-link:hover {
+    color: white;
+}

@@ -1,0 +1,87 @@
+.myskills-container {
+    margin-top: 9%;
+    display: flex;
+}
+
+.myskills-heading {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.myskills-card-container {
+    display: grid;
+    margin: 5% 13%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1px;
+}
+
+@media (max-width:950px) {
+    .myskills-card-container {
+        display: block;
+    }
+
+    .myskill-card {
+        width: 100% !important;
+    }
+
+    .myskill-card-content {
+        margin-right: 5%;
+    }
+}
+
+.right-btn {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: #12122a;   
+}
+
+.right-icon {
+    color: white;
+}
+
+.myskill-card {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 550px;
+    height: 180px;
+    flex-direction: column;
+}
+
+.myskill-card:hover {
+    background-color: #202131;
+}
+
+.myskill-card-heading {
+    color: white;
+    margin-top: 23px;
+    margin-left: 70px;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    display: inline;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.myskill-card-content {
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 70px;
+    font-family: "Roboto",sans-serif;
+    line-height: 1.6em;
+}
