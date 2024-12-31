@@ -15,9 +15,9 @@ I am a developer specializing in building dynamic and scalable web applications 
 
 - **Name:** Rohith Chanda
 - **Location:** Dharmavaram
-- **Email:** [Your Email]
-- **LinkedIn:** [Your LinkedIn]
-- **GitHub:** [Your GitHub]
+- **Email:** rohithchanda7@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/rohith-chanda-965a2623b/
+- **GitHub:** zhttps://github.com/Rohith1034
 
 ## Skills
 - **Web Design**: Proficient in creating visually appealing and user-friendly web interfaces using HTML, CSS, and JavaScript frameworks.
