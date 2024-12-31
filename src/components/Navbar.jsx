@@ -29,7 +29,7 @@ function Navbar() {
                         </h1>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="/">EXPERIENCE</a>
+                            <a className="nav-link" href="#experience">EXPERIENCE</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#about">ABOUT</a>

@@ -3,8 +3,8 @@ import "../components css/recentProjects.css"
 import img1 from "../resources/Screenshot 2024-05-28 221720.png"
 import img2 from "../resources/Screenshot 2024-05-28 222540.png"
 import img3 from "../resources/Screenshot 2024-05-28 222758.png"
-import img4 from "../resources/Ecommerce Mobile App UI Kit.jpg"
-import img5 from "../resources/Frame 302.png"
+import img4 from "../resources/Presentation 😎 (1).jpg"
+import img5 from "../resources/foodre.png"
 import img6 from "../resources/2bcb495162d2eeab782a98efe90d7b0d.jpg"
 
 function RecentProjects() {
@@ -44,17 +44,17 @@ function RecentProjects() {
 
                     <div className="project-card">
                         <div className="img-container" style={{ backgroundColor: "#397cff" }}>
-                            <img className="project-img" src={img4} alt="Project img" />
+                            <img className="project-img" src={img5} alt="Project img" />
                         </div>
-                        <h3 className="project-card-heading">Ecommerce App</h3>
+                        <h3 className="project-card-heading">Food Recipe App</h3>
                         <p className="project-card-content">App development</p>
                     </div>
 
                     <div className="project-card">
                         <div className="img-container" style={{ backgroundColor: "#deebf3" }}>
-                            <img className="project-img" src={img5} alt="Project img" />
+                            <img className="project-img" src={img4} alt="Project img" />
                         </div>
-                        <h3 className="project-card-heading">Food Recipe app</h3>
+                        <h3 className="project-card-heading">Notely Notes Taking App</h3>
                         <p className="project-card-content">App development</p>
                     </div>
 

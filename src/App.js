@@ -6,6 +6,7 @@ import Cards from './components/Cards.jsx';
 import RecentProjects from './components/RecentProjects.jsx';
 import Myskills from './components/Myskills.jsx';
 import Footer from './components/Footer.jsx';
+import Experience from './components/Experience.jsx';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <Header /> 
       <About />
       <Cards />
+      
       <RecentProjects />
+      <Experience />
       <Myskills />
       <Footer />
     </div>
